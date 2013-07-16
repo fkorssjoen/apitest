@@ -9,3 +9,7 @@ dependencies {
     testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
     testCompile 'com.github.groovy-wslite:groovy-wslite:0.8.0'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.6'
+}
