@@ -27,6 +27,6 @@ class ProductsSpec extends Specification {
 
         then:
         assert 200 == response.statusCode
-        assert 1102 == response.json."ItemSearchResponse"."Items"."TotalResults"
+        assert 1110 == response.json."ItemSearchResponse"."Items"."TotalResults"
     }    
 }
